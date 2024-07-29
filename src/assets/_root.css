@@ -87,11 +87,12 @@ video {
 
 body {
     height: 100%;
+    padding: 1rem;
 }
 
 :root,
 #app {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     overflow: hidden;
     scrollbar-color: var(--secondary) var(--primary) !important;
