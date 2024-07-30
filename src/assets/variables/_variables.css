@@ -1,5 +1,5 @@
 :root {
-  --font_size--xxxxl: 4rem;
+  --font_size--xxxxl: 3.25rem;
   --font_size--xxxl: 2.375rem;
   --font_size--xxl: 2rem;
   --font_size--xl: 1.375rem;
@@ -8,15 +8,17 @@
   --font_size--xxs: 0.8rem;
 
   --primary: #006340;
+  --primary-variant: #2D473E;
   --lt-primary: #006340;
   --secondary: #ffffff;
+  --muted: #DBDBDB;
   --tertiary: #000000;
 
   --padding-xxxl: 3rem;
   --padding-xxl: 2rem;
   --padding-xl: 1.5rem;
   --padding: 1rem;
-  --padding-xs: 0.5rem;
+  --padding-xs: 0.75rem;
   --padding-xxs: 0.3rem;
 
   --margin-xxxl: 3rem;

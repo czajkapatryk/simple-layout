@@ -1,0 +1,12 @@
+.o-payment-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+
+@media all and (max-width: 1600px) {
+    .o-payment-section {
+        flex-direction: column;
+    }
+}
