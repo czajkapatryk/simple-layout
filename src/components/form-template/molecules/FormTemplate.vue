@@ -65,7 +65,7 @@ const formFooterImages = [
 button {
   width: 100%;
   padding: var(--padding-xs) var(--padding);
-  background: var(--primary);
+  background: var(--lt-primary);
   color: var(--secondary);
   margin-top: var(--margin-xl);
   font-weight: 600;

@@ -31,7 +31,7 @@ defineProps({
   flex-direction: column;
   border-radius: 100%;
   gap: var(--gap--xs);
-  background: var(--primary);
+  background: var(--lt-primary);
   color: var(--secondary);
   overflow: hidden;
 }

@@ -1,6 +1,9 @@
 <template>
-  <div class="c-section__title">
-    <div class="c-section__title--container">
+  <section class="c-section__title">
+    <div
+      class="c-section__title--container"
+      :class="customContainerClass"
+    >
       <h1>{{ title }}</h1>
       <h2 v-if="subtitle">{{ subtitle }}</h2>
     </div>
@@ -12,7 +15,7 @@
         {{ formattedChips }}
       </span>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts" setup>
@@ -24,6 +27,10 @@ const props = defineProps({
     required: true,
   },
   subtitle: {
+    type: String,
+    default: '',
+  },
+  customContainerClass: {
     type: String,
     default: '',
   },
@@ -57,7 +64,7 @@ const formattedChips = computed(() => props.chips.join(' | '))
 }
 
 h1 {
-  color: var(--primary-variant);
+  color: var(--primary);
   font-size: var(--font_size--xxxxl);
   font-weight: 800;
   line-height: 110%;

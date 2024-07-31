@@ -52,7 +52,7 @@ input {
 }
 
 input:active {
-  border: 1px solid var(--primary-variant);
-  color: var(--primary-variant);
+  border: 1px solid var(--primary);
+  color: var(--primary);
 }
 </style>

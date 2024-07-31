@@ -1,0 +1,11 @@
+.c-custom-section-title {
+    width: 790px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1600px) {
+    .c-custom-section-title {
+        width: unset;
+    }
+}

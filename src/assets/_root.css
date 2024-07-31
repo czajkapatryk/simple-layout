@@ -86,7 +86,6 @@ video {
 }
 
 body {
-    height: 100%;
     padding: var(--padding);
     margin: 0 308px;
 }
@@ -100,3 +99,8 @@ body {
     scrollbar-width: thin !important;
 }
 
+@media all and (max-width: 1600px) {
+    body {
+        margin: 0 var(--margin);
+    }
+}

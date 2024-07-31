@@ -6,12 +6,14 @@
   --font_size: 1rem;
   --font_size--xs: 0.875rem;
   --font_size--xxs: 0.8rem;
+  --font_size--xxxs: 0.75rem;
+  --font_size--xxxxs: 0.625rem;
 
-  --primary: #006340;
-  --primary-variant: #2D473E;
+  --primary: #2D473E;
   --lt-primary: #006340;
   --secondary: #ffffff;
   --muted: #DBDBDB;
+  --lt-muted: #F5F5F5;
   --tertiary: #000000;
 
   --padding-xxxl: 3rem;
@@ -33,5 +35,6 @@
   --gap: 1rem;
   --gap--xs: 0.5rem;
   --gap--xxs: 0.3rem;
+  --gap--xxxs: 0.25rem;
 
 }
