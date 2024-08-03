@@ -60,9 +60,9 @@
 
 <script lang="ts" setup>
 import { reactive } from 'vue'
-import PaymentFormInterface from '@/features/payment/interfaces/PaymentFormInterface'
-import FormTemplate from '@/components/form-template/molecules/FormTemplate.vue'
-import Input from '@/components/form-template/atoms/Input.vue'
+import PaymentFormInterface from '@/interfaces/PaymentFormInterface'
+import FormTemplate from '@/components/molecules/FormTemplate.vue'
+import Input from '@/components/atoms/Input.vue'
 
 const props = defineProps<{
   data: PaymentFormInterface

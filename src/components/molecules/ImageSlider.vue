@@ -31,9 +31,8 @@
 
 <script lang="ts" setup>
 import { PropType, ref } from 'vue'
-import { ImageSliderType } from '@/features/image-slider/types/ImageSliderType'
-import ImageSliderInterface from '@/features/image-slider/interfaces/ImageSliderInterface'
-import DiscountTag from '@/components/image-slider/atoms/DiscountTag.vue'
+import ImageSliderInterface from '@/interfaces/ImageSliderInterface'
+import DiscountTag from '@/components/atoms/DiscountTag.vue'
 
 const props = defineProps({
   discountTag: {
@@ -41,12 +40,12 @@ const props = defineProps({
     default: true,
   },
   images: {
-    type: Array as PropType<ImageSliderType>,
+    type: Array as PropType<ImageSliderInterface[]>,
     required: true,
   },
 })
 
-const images = ref<ImageSliderType>(props.images)
+const images = ref<ImageSliderInterface[]>(props.images)
 const mainImage = ref<ImageSliderInterface>(images.value[0])
 
 const updateMainImage = (image: ImageSliderInterface) => {

@@ -4,6 +4,6 @@ export default interface PaymentFormInterface {
   street: string
   postal_code: string
   city: string
-  phone_number: number | null
+  phone_number: string | number
   email: string
 }

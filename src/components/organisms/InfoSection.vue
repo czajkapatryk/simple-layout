@@ -44,6 +44,6 @@
 </template>
 
 <script setup lang="ts">
-import SectionTitle from '@/components/section-title/molecules/SectionTitle.vue'
-import TextWithImage from '@/components/text-with-image/molecules/TextWithImage.vue'
+import SectionTitle from '@/components/molecules/SectionTitle.vue'
+import TextWithImage from '@/components/molecules/TextWithImage.vue'
 </script>

@@ -15,10 +15,10 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import PaymentFormInterface from '@/features/payment/interfaces/PaymentFormInterface'
-import ImageSlider from '@/components/image-slider/molecules/ImageSlider.vue'
-import PaymentForm from '@/components/payment/molecules/PaymentForm.vue'
-import SectionTitle from '@/components/section-title/molecules/SectionTitle.vue'
+import PaymentFormInterface from '@/interfaces/PaymentFormInterface'
+import ImageSlider from '@/components/molecules/ImageSlider.vue'
+import PaymentForm from '@/components/molecules/PaymentForm.vue'
+import SectionTitle from '@/components/molecules/SectionTitle.vue'
 const images = [
   {
     src: '/image_1.png',
@@ -48,7 +48,7 @@ const formData = ref<PaymentFormInterface>({
   street: '',
   postal_code: '',
   city: '',
-  phone_number: null as number | null,
+  phone_number: '',
   email: '',
 })
 
